@@ -73,7 +73,7 @@ The voter data use policy specifies limitations on how (and by whom) the data ca
 | Prohibited uses      | Not specified.                                                                            |
 | Approved entities    | Only those approved to use the Identity Verification Service (SVI).                                                                                    |
 | Information released | Names, national identity card number, day and place of birth, and names of parents. Public documentation on SVI claims that, as of August 2017, signature and photographs will also be available via this service ``in the near future''. It is unclear if this has been implemented yet or not.                                                         |
-| Opt out policy       | Address Confidentiality Program (ACP) participants; confidential voters; pre-registrants. |
+| Opt out policy       | Not specified |
 
 Sources:
 
