@@ -1,4 +1,4 @@
-## Colorado Voter Registration Tables
+## Panama Voter Registration Tables
 
 This page contains tables describing the voter registration system of Panama. A full explanation of the table properties can be found in our paper, [A Systematization of Voter Registration Security]().
 
