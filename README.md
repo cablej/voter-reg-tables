@@ -6,7 +6,7 @@ This repository contains tables describing the voter registration systems of var
 
 Click a jurisdiction to view its tables:
 
-- [Colorado]()
+- [Colorado](colorado.md)
 - [Ohio]()
 - [Wisconsin]()
 - [Panama]()
