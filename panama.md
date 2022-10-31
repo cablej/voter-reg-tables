@@ -48,6 +48,22 @@ The data change control policy includes information about the entities involved 
 control policy as a table that specifies the entities allowed to authorize/start updates, trigger updates (send updated data to election officials), and execute the update (directly modify the data inside
 the VRDB). In this table, we map these entities to the type of data they update, and if there is a notification involved in this type of update.
 
+| Category      | Entity                                                                   | Type of Data                       |
+| ------------- | ------------------------------------------------------------------------ | ---------------------------------- |
+| Authorization | Voter                                                                    | Personal data.                      |
+|               | Tribunal Electoral officials                                             | Updated data from national census or other maintenance activities.  |
+| Trigger       | Online update portal                                                     | Data from voter who started update. |
+|               | Instituto Nacional de Estadística y Censo                                                                                      | Updated data after census. |
+|               | Public institutions, businesses and private entities                                                                                   | Updated data after declaration of residence for use of service.     |
+|               | Tribunal Electoral officials                                             | Data of new/updated national identity card.        |
+|               | Courts                                                                   | Legal documents denoting removal or addition from voter rolls (e.g., lose of citizenship, prison sentence, etc).                 |
+| Execution     | Tribunal Electoral officials                                                 |                                    |
+
+Sources:
+
+https://www.inec.gob.pa/
+https://www.tribunal-electoral.gob.pa/publicaciones/codigo-electoral/
+
 ### Voter Data Use Policy
 
 The voter data use policy specifies limitations on how (and by whom) the data can be used.
@@ -55,7 +71,7 @@ The voter data use policy specifies limitations on how (and by whom) the data ca
 | Category | Value |
 |----------------------|-------------------------------------------------------------------------------------------|
 | Prohibited uses      | Not specified.                                                                            |
-| Approved entities    | Only those approved to use the Identity Verification Service (SVI)                                                                                    |
+| Approved entities    | Only those approved to use the Identity Verification Service (SVI).                                                                                    |
 | Information released | Names, national identity card number, day and place of birth, and names of parents. Public documentation on SVI claims that, as of August 2017, signature and photographs will also be available via this service ``in the near future''. It is unclear if this has been implemented yet or not.                                                         |
 | Opt out policy       | Address Confidentiality Program (ACP) participants; confidential voters; pre-registrants. |
 
