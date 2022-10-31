@@ -9,7 +9,7 @@ Click a jurisdiction to view its tables:
 - [Colorado](colorado.md)
 - [Ohio]()
 - [Wisconsin]()
-- [Panama]()
+- [Panama](Panama.md)
 
 ## Citing
 
