@@ -17,12 +17,63 @@ Jump to:
 | Parameter | Value |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $p_{\rm elig}$: the voter eligibility criteria                                                                                                                                                              | Panamanian adult citizen who has not: renounced their citizenship explicitly or implicitly (by acquiring another citizenship to which they did not have claim to by birth), served an enemy state, , nor .
-| $p_{\rm reg-acts}$: Required actions from the voter in order to register                                                                                                                                    | Submit national identity card application; enroll for remote-voting appropriate, as specified in Article 12 of the CE                                                                                                                                                                                                                                                                                                                                |
+| $p_{\rm reg-acts}$: Required actions from the voter in order to register                                                                                                                                    | Submit national identity card application; enroll for remote-voting appropriate, as specified in Article 12 of the CE.                                                                                                                                                                                                                                                                                                                                |
 | $p_{\rm reg-methods}$: List of registration methods                                                                                                                                                            | In person; online for remote-voting (may involve virtual interview).                                                                                                                                                                                                                                                                                                                                 |
 | $p_{\rm voter-info}$: Types of voter information that are collected and stored                                                                                                                                | A minimum of name(s), last name(s), birth place, sex, picture, blood type, signature, dates of issue and expiry of the national identity card.                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | $p_{\rm freeze-reg}$: Period before election during which new registrations are not allowed                                                                                                                   |  Citizens can get added to the voter rolls only if they request their identity cards by July 5th of the year before the general elections (see Article 22 of the CE for information on how underage citizens, who will be 18+ by the time the general elections occur, are handled).                                                                                                                                                                                                                                                                                                                                                    |
 | $p_{\rm freeze-db}$: Period before election during which systemic registration removals or other maintenance are not allowed                                                                                          | The final list of voters is published three months before the general elections at the latest.                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | $p_{\rm keep-logs}$: Period after an election for which a snapshot and activity logs of the VRDB for that election are kept                                                                                  | ?                                                                                                                                                                                                                                                                                                                                                                                                              |
-| $p_{\rm elig}$: Voter authentication criteria: How voters are authenticated for various stages of the VRDB process (registering to vote, updating voter registration record, checking in at a pollbook) | ?                                                                                                    |
+| $p_{\rm elig}$: Voter authentication criteria: How voters are authenticated for various stages of the VRDB process (registering to vote, updating voter registration record, checking in at a pollbook) | ?                                                                                                                                                                                           |
 
 Sources:
+
+https://www.tribunal-electoral.gob.pa/publicaciones/codigo-electoral/
+
+### Access Control Policy
+
+The access control policy determines which entities can access certain fields. We represent the access control policy as a table that maps entities to registration fields, with binary values in each cell denoting whether the entity in that row is allowed to view the data point in that column, for any voter.
+
+### System Change Control Policy
+
+Panama has public documentation outlining the specific steps that must be followed to make system changes, the most notable of which are the procedure manuals of the Infrastructure Management and the Information Security Management. Thus, this represents their specific implementation of the system change control policy. We omitted an independent construction of the corresponding table for Panama, because it is covered by these documents.
+
+Sources:
+
+https://www.tribunal-electoral.gob.pa/wp-content/uploads/2020/07/Proc.-Gral.-Gesti%C3%B3n-de-Infraestructura.pdf
+https://www.tribunal-electoral.gob.pa/wp-content/uploads/2021/11/Proc.-Gral.-Gestio%CC%81n-para-la-Seguridad-Informatica-Enero-2021.pdf
+
+### Data Change Control Policy
+
+The data change control policy includes information about the entities involved in updating the VRDB or associated policies. We represent the data change
+control policy as a table that specifies the entities allowed to authorize/start updates, trigger updates (send updated data to election officials), and execute the update (directly modify the data inside
+the VRDB). In this table, we map these entities to the type of data they update, and if there is a notification involved in this type of update.
+
+### Voter Data Use Policy
+
+The voter data use policy specifies limitations on how (and by whom) the data can be used.
+
+| Category | Value |
+|----------------------|-------------------------------------------------------------------------------------------|
+| Prohibited uses      | Not specified.                                                                            |
+| Approved entities    | Only those approved to use the Identity Verification Service (SVI)                                                                                    |
+| Information released | Names, national identity card number, day and place of birth, and names of parents. Public documentation on SVI claims that, as of August 2017, signature and photographs will also be available via this service ``in the near future''. It is unclear if this has been implemented yet or not.                                                         |
+| Opt out policy       | Address Confidentiality Program (ACP) participants; confidential voters; pre-registrants. |
+
+Sources:
+
+https://www.tribunal-electoral.gob.pa/direccion-superior/secretaria-general/servicio-verificacion-identidad-svi/
+
+### Voter Notification Policy
+
+The voter notification policy governs how jurisidictions notify voters of various changes to their records. We represent the voter notification policies as a
+table mapping notification reasons to notification protocols and methods.
+
+### Maintenance Policy
+
+The maintenence policy governs how jurisdictions keep their VRDB accurate and up-to-date. We represent the voter maintenance policy as a table mapping
+maintenance reasons and their associated data sources to maintenance thresholds and actions.
+
+### Oversight Policy
+
+The oversight policy governs how third parties can review information in the VRDB. We represent the oversight policy as a table mapping oversight entities to the
+type of voter data and other information they can access, along with time periods for oversight.
