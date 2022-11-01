@@ -68,7 +68,7 @@ The voter data use policy specifies limitations on how (and by whom) the data ca
 
 | Category | Value |
 |----------------------|-------------------------------------------------------------------------------------------|
-| Prohibited uses      | Not specified.                                                                            |
+| Prohibited uses      | The preliminary voter rolls published before an election can only be used for voters to verify their information, and nothing else.                                                                           |
 | Approved entities    | Only those approved to use the Identity Verification Service (SVI).                                                                                    |
 | Information released | Names, national identity card number, day and place of birth, and names of parents. Public documentation on SVI claims that, as of August 2017, signature and photographs will also be available via this service ``in the near future''. It is unclear if this has been implemented yet or not.                                                         |
 | Opt out policy       | Not specified. |
@@ -83,8 +83,8 @@ The voter notification policy governs how jurisidictions notify voters of variou
 
 | Notification reason     | Notification protocol                                                                                                                                                                                               | Notification methods    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| Voter inactivity (fail to vote in three consecutive general elections or do not participate in any processes (related to voting or not) through the Tribunal Electoral) | Publish list in Tribunal Electoral's website.                                                                                                                                                                                | Online. |
-| Publication of preliminary and final voter rolls at dedicated times before elections.        | Publish list in Tribunal Electoral's website.                                                                                                                             | Online |
+| Voter inactivity (fail to vote in three consecutive general elections or do not participate in any processes (related to voting or not) through the Tribunal Electoral) | Publish list in the Tribunal Electoral's website.                                                                                                                                                                                | Online. |
+| Eligibility for an election       | Publication of preliminary and final voter rolls, at dedicated times before an election, either through the Tribunal Electoral's website or through offices of lower jurisdictional levels.                                                                                                                             | Online and through other government offices. |
 
 
 
@@ -109,4 +109,6 @@ https://www.tribunal-electoral.gob.pa/publicaciones/codigo-electoral/
 
 The oversight policy governs how third parties can review information in the VRDB. We represent the oversight policy as a table mapping oversight entities to the type of voter data and other information they can access, along with time periods for oversight.
 
-Panama does not publish information related to the oversight policy.
+| Designated auditor     | Voter data                                              | VRDB logs | VRDB code | Interactive access | Time periods                 |
+| ---------------------- | ------------------------------------------------------- | --------- | --------- | ------------------ | ---------------------------- |
+| Voters              | Yes, as public in accordance with access control policy | No        | No        | Yes                 | Upon publication of preliminary voter rolls, up to publication of final voter rolls (three months before the general elections at the latest).               |
