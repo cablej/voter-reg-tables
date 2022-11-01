@@ -1,6 +1,6 @@
 ## Ohio Voter Registration Tables
 
-This page contains tables describing the voter registration system of Colorado. A full explanation of the table properties can be found in our paper, [A Systematization of Voter Registration Security]().
+This page contains tables describing the voter registration system of Ohio. A full explanation of the table properties can be found in our paper, [A Systematization of Voter Registration Security]().
 
 Jump to:
 
