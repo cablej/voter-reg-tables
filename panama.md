@@ -81,6 +81,12 @@ https://www.tribunal-electoral.gob.pa/direccion-superior/secretaria-general/serv
 
 The voter notification policy governs how jurisidictions notify voters of various changes to their records. We represent the voter notification policies as a table mapping notification reasons to notification protocols and methods.
 
+| Notification reason     | Notification protocol                                                                                                                                                                                               | Notification methods    |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| Voter inactivity (fail to vote in three consecutive general elections or do not participate in any processes (related to voting or not) through the Tribunal Electoral) | Publish list in Tribunal Electoral's website.                                                                                                                                                                                | Online. |
+| Publication of preliminary and final voter rolls at dedicated times before elections.        | Publish list in Tribunal Electoral's website.                                                                                                                             | Online |
+
+
 
 ### Maintenance Policy
 
