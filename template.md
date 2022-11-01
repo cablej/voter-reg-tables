@@ -47,7 +47,7 @@ The access control policy determines which entities can access certain fields. W
 
 ### System Change Control Policy
 
-The system change control policy specifies how election officials may modify the voter registration system.
+The system change control policy specifies all guidelines that must be followed when making meta changes to the voter registration system. We represent the system change control policy as a table that maps types of changes to stages of a change’s lifecycle. Each cell specifies the directives that are in place at a particular stage of a (type of) change.
 
 |             | Description | Planification | Evaluation | Review | Authorization | Execution | Communication | Logging | How often is the system evaluated for these updates |
 | ----------- | ----------- | ------------- | ---------- | ------ | ------------- | --------- | ------------- | ------- | --------------------------------------------------- |
