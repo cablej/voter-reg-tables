@@ -44,9 +44,7 @@ https://www.tribunal-electoral.gob.pa/wp-content/uploads/2021/11/Proc.-Gral.-Ges
 
 ### Data Change Control Policy
 
-The data change control policy includes information about the entities involved in updating the VRDB or associated policies. We represent the data change
-control policy as a table that specifies the entities allowed to authorize/start updates, trigger updates (send updated data to election officials), and execute the update (directly modify the data inside
-the VRDB). In this table, we map these entities to the type of data they update, and if there is a notification involved in this type of update.
+The data change control policy includes information about the entities involved in updating the VRDB or associated policies. We represent the data change control policy as a table that specifies the entities allowed to authorize/start updates, trigger updates (send updated data to election officials), and execute the update (directly modify the data inside the VRDB). In this table, we map these entities to the type of data they update, and if there is a notification involved in this type of update.
 
 | Category      | Entity                                                                   | Type of Data                       |
 | ------------- | ------------------------------------------------------------------------ | ---------------------------------- |
@@ -81,15 +79,12 @@ https://www.tribunal-electoral.gob.pa/direccion-superior/secretaria-general/serv
 
 ### Voter Notification Policy
 
-The voter notification policy governs how jurisidictions notify voters of various changes to their records. We represent the voter notification policies as a
-table mapping notification reasons to notification protocols and methods.
+The voter notification policy governs how jurisidictions notify voters of various changes to their records. We represent the voter notification policies as a table mapping notification reasons to notification protocols and methods.
 
 ### Maintenance Policy
 
-The maintenence policy governs how jurisdictions keep their VRDB accurate and up-to-date. We represent the voter maintenance policy as a table mapping
-maintenance reasons and their associated data sources to maintenance thresholds and actions.
+The maintenence policy governs how jurisdictions keep their VRDB accurate and up-to-date. We represent the voter maintenance policy as a table mapping maintenance reasons and their associated data sources to maintenance thresholds and actions.
 
 ### Oversight Policy
 
-The oversight policy governs how third parties can review information in the VRDB. We represent the oversight policy as a table mapping oversight entities to the
-type of voter data and other information they can access, along with time periods for oversight.
+The oversight policy governs how third parties can review information in the VRDB. We represent the oversight policy as a table mapping oversight entities to the type of voter data and other information they can access, along with time periods for oversight.

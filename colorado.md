@@ -53,7 +53,7 @@ The access control policy determines which entities can access certain fields. W
 |                  | County official processing mail-in ballots | ✓    | ✓†           | ✓†              | ✓             | ✓                  | ✓†               | X             | ✓                                 | X        | X                 | ✓                           | ✓                   | ✓               | ✓         | X                       |
 | LIST MAINTENANCE | NCOA                                       | X    | X            | X               | X             | X                  | X                | X             | X                                 | X        | X                 | X                           | X                   | X               | X         | X                       |
 |                  | Department of Revenue                      | X    | X            | X               | X             | X                  | X                | X             | X                                 | X        | X                 | X                           | X                   | X               | X         | X                       |
-|                  | ERIC                                       | ✓    | ✓            | ✓‡              | ✓‡            | ✓                  | ✓                | ✓‡            | ✓‡                                | X        | ✓                 | X                           | X                   | X               | X         | ✓                       |
+|                  | ERIC                                       | ✓    | ✓            | ✓               | X             | ✓‡                 | ✓                | ✓‡            | ✓‡                                | X        | ✓                 | X                           | X                   | X               | X         | ✓                       |
 | TRANSPARENCY     | The public                                 | ✓    | ✓\*          | ✓\*             | ✓             | X                  | ✓\*              | X             | X                                 | X        | X                 | ✓                           | ✓                   | ✓               | X         | ✓                       |
 
 Sources:
@@ -76,9 +76,7 @@ Colorado does not publish information related to the system change control polic
 
 ### Data Change Control Policy
 
-The data change control policy includes information about the entities involved in updating the VRDB or associated policies. We represent the data change
-control policy as a table that specifies the entities allowed to authorize/start updates, trigger updates (send updated data to election officials), and execute the update (directly modify the data inside
-the VRDB). In this table, we map these entities to the type of data they update, and if there is a notification involved in this type of update.
+The data change control policy includes information about the entities involved in updating the VRDB or associated policies. We represent the data change control policy as a table that specifies the entities allowed to authorize/start updates, trigger updates (send updated data to election officials), and execute the update (directly modify the data inside the VRDB). In this table, we map these entities to the type of data they update, and if there is a notification involved in this type of update.
 
 | Category      | Entity                                                                   | Type of Data                       |
 | ------------- | ------------------------------------------------------------------------ | ---------------------------------- |
@@ -98,17 +96,20 @@ the VRDB). In this table, we map these entities to the type of data they update,
 
 The voter data use policy specifies limitations on how (and by whom) the data can be used.
 
-| Category             | Value                                                                                     |
-| -------------------- | ----------------------------------------------------------------------------------------- |
-| Prohibited uses      | Not specified.                                                                            |
-| Approved entities    | Public                                                                                    |
-| Information released | See access control policy table.                                                          |
-| Opt out policy       | Address Confidentiality Program (ACP) participants; confidential voters; pre-registrants. |
+| Category             | Value                                              |
+| -------------------- | -------------------------------------------------- |
+| Prohibited uses      | Not specified                                      |
+| Approved entities    | Public                                             |
+| Information released | See access control policy table                    |
+| Opt out policy       | Address Confidentiality Program (ACP) participants |
+
+Sources:
+
+https://www.ncsl.org/research/elections-and-campaigns/access-to-and-use-of-voter-registration-lists.aspx
 
 ### Voter Notification Policy
 
-The voter notification policy governs how jurisidictions notify voters of various changes to their records. We represent the voter notification policies as a
-table mapping notification reasons to notification protocols and methods.
+The voter notification policy governs how jurisidictions notify voters of various changes to their records. We represent the voter notification policies as a table mapping notification reasons to notification protocols and methods.
 
 | Notification reason     | Notification protocol                                                                                                                                                                                               | Notification methods    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
@@ -126,8 +127,7 @@ https://casetext.com/statute/colorado-revised-statutes/title-1-elections/general
 
 ### Maintenance Policy
 
-The maintenence policy governs how jurisdictions keep their VRDB accurate and up-to-date. We represent the voter maintenance policy as a table mapping
-maintenance reasons and their associated data sources to maintenance thresholds and actions.
+The maintenence policy governs how jurisdictions keep their VRDB accurate and up-to-date. We represent the voter maintenance policy as a table mapping maintenance reasons and their associated data sources to maintenance thresholds and actions.
 
 | Reason                                  | Data source                                                              | Threshold                                            | Action                                                      |
 | --------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------------- |
@@ -150,8 +150,7 @@ https://www.sos.state.co.us/pubs/rule_making/files/2021/20210617ElectionRules8CC
 
 ### Oversight Policy
 
-The oversight policy governs how third parties can review information in the VRDB. We represent the oversight policy as a table mapping oversight entities to the
-type of voter data and other information they can access, along with time periods for oversight.
+The oversight policy governs how third parties can review information in the VRDB. We represent the oversight policy as a table mapping oversight entities to the type of voter data and other information they can access, along with time periods for oversight.
 
 | Designated auditor     | Voter data                                              | VRDB logs | VRDB code | Interactive access | Time periods                 |
 | ---------------------- | ------------------------------------------------------- | --------- | --------- | ------------------ | ---------------------------- |
