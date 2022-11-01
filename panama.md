@@ -76,6 +76,7 @@ The voter data use policy specifies limitations on how (and by whom) the data ca
 Sources:
 
 https://www.tribunal-electoral.gob.pa/direccion-superior/secretaria-general/servicio-verificacion-identidad-svi/
+https://www.tribunal-electoral.gob.pa/publicaciones/codigo-electoral/
 
 ### Voter Notification Policy
 
@@ -86,7 +87,9 @@ The voter notification policy governs how jurisidictions notify voters of variou
 | Voter inactivity (fail to vote in three consecutive general elections or do not participate in any processes (related to voting or not) through the Tribunal Electoral) | Publish list in the Tribunal Electoral's website.                                                                                                                                                                                | Online. |
 | Eligibility for an election       | Publication of preliminary and final voter rolls, at dedicated times before an election, either through the Tribunal Electoral's website or through offices of lower jurisdictional levels.                                                                                                                             | Online and through other government offices. |
 
+Sources:
 
+https://www.tribunal-electoral.gob.pa/publicaciones/codigo-electoral/
 
 ### Maintenance Policy
 
@@ -112,3 +115,7 @@ The oversight policy governs how third parties can review information in the VRD
 | Designated auditor     | Voter data                                              | VRDB logs | VRDB code | Interactive access | Time periods                 |
 | ---------------------- | ------------------------------------------------------- | --------- | --------- | ------------------ | ---------------------------- |
 | Voters              | Yes, as public in accordance with access control policy | No        | No        | Yes                 | Upon publication of preliminary voter rolls, up to publication of final voter rolls (three months before the general elections at the latest).               |
+
+Sources:
+
+https://www.tribunal-electoral.gob.pa/publicaciones/codigo-electoral/
