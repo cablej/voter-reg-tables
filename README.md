@@ -11,6 +11,8 @@ Click a jurisdiction to view its tables:
 - [Wisconsin](wisconsin.md)
 - [Panama](panama.md)
 
+Template tables can be found [here](template.md).
+
 ## Citing
 
 ## Contributing

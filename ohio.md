@@ -74,7 +74,7 @@ https://nnedv.org/?mdocs-file=2925
 
 ### System Change Control Policy
 
-Ohio does not publish information related to the system change control policy. See [here](example.md#system-change-control-policy) for a template table.
+Ohio does not publish information related to the system change control policy. See [here](template.md#system-change-control-policy) for a template table.
 
 ### Data Change Control Policy
 

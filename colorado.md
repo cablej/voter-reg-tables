@@ -72,7 +72,7 @@ https://dcs.colorado.gov/acp/about-the-acp
 
 ### System Change Control Policy
 
-Colorado does not publish information related to the system change control policy. See [here](example.md#system-change-control-policy) for a template table.
+Colorado does not publish information related to the system change control policy. See [here](template.md#system-change-control-policy) for a template table.
 
 ### Data Change Control Policy
 
