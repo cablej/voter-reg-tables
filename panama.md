@@ -22,8 +22,8 @@ Jump to:
 | $p_{\rm voter-info}$: Types of voter information that are collected and stored                                                                                                                                | A minimum of name(s), last name(s), birth place, sex, picture, blood type, signature, dates of issue and expiry of the national identity card.                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | $p_{\rm freeze-reg}$: Period before election during which new registrations are not allowed                                                                                                                   |  Citizens can get added to the voter rolls only if they request their identity cards by July 5th of the year before the general elections (see Article 22 of the CE for information on how underage citizens, who will be 18+ by the time the general elections occur, are handled).                                                                                                                                                                                                                                                                                                                                                    |
 | $p_{\rm freeze-db}$: Period before election during which systemic registration removals or other maintenance are not allowed                                                                                          | The final list of voters is published three months before the general elections at the latest.                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| $p_{\rm keep-logs}$: Period after an election for which a snapshot and activity logs of the VRDB for that election are kept                                                                                  | ?                                                                                                                                                                                                                                                                                                                                                                                                              |
-| $p_{\rm elig}$: Voter authentication criteria: How voters are authenticated for various stages of the VRDB process (registering to vote, updating voter registration record, checking in at a pollbook) | ?                                                                                                                                                                                           |
+| $p_{\rm keep-logs}$: Period after an election for which a snapshot and activity logs of the VRDB for that election are kept                                                                                  | Not specified                                                                                                                                                                                                                                                                                                                                                                                                              |
+| $p_{\rm elig}$: Voter authentication criteria: How voters are authenticated for various stages of the VRDB process (registering to vote, updating voter registration record, checking in at a pollbook) | National identity card.                                                                                                                                                                                           |
 
 Sources:
 
@@ -81,9 +81,24 @@ https://www.tribunal-electoral.gob.pa/direccion-superior/secretaria-general/serv
 
 The voter notification policy governs how jurisidictions notify voters of various changes to their records. We represent the voter notification policies as a table mapping notification reasons to notification protocols and methods.
 
+
+
 ### Maintenance Policy
 
 The maintenence policy governs how jurisdictions keep their VRDB accurate and up-to-date. We represent the voter maintenance policy as a table mapping maintenance reasons and their associated data sources to maintenance thresholds and actions.
+
+In Panama, most updates to voter data come directly from the voters themselves, so maintenance activities are fairly limited in scope.
+
+| Reason                                  | Data source                                                              | Threshold                                            | Action                                                      |
+| --------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------------- |
+| Updated data after census | Instituto Nacional de Estadística y Censo                                                    | Updated voter data              | Update existing record                    |
+| Change of address                          | Public institutions, businesses and private entities                                                                    | Updated data after declaration of residence for use of service.                             | Update address                                              |
+| Voter inactivity                        | Tribunal Electoral                                                                     | After notification, if they fail to vote in three consecutive general elections or do not participate in any processes (related to voting or not) through the Tribunal Electoral                  | Mark inactive |
+| Cime                                   | Courts | Voter currently incarcerated for a felony conviction                                           | Delete or add to voter rolls (due to e.g., lose of citizenship, prison sentence, etc)                              |
+
+Sources:
+https://www.inec.gob.pa/
+https://www.tribunal-electoral.gob.pa/publicaciones/codigo-electoral/
 
 ### Oversight Policy
 
