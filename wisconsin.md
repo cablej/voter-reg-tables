@@ -1,6 +1,6 @@
 ## Wisconsin Voter Registration Tables
 
-This page contains tables describing the voter registration system of Wisconsin. A full explanation of the table properties can be found in our paper, [A Systematization of Voter Registration Security]().
+This page contains tables describing the voter registration system of Wisconsin. A full explanation of the table properties can be found in our paper, [A Systematization of Voter Registration Security](https://eprint.iacr.org/2022/1562).
 
 Jump to:
 
